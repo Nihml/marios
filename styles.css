@@ -1,6 +1,104 @@
-header{
-	background-color:black;
-	color:red;
-	text-align:center;
-	padding:1em;
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('background-wood.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #8B4513; /* Καφέ background */
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 2px solid #8B4513;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #8B4513;
+}
+
+header a {
+    color: #8B4513;
+    text-decoration: none;
+    margin: 0 10px; /* Μείωση περιθωρίου */
+    font-size: 0.9em; /* Μείωση μεγέθους γραμματοσειράς */
+    padding: 5px 8px; /* Μείωση padding */
+    border: 2px solid #8B4513; /* Πλαίσια στα κουμπιά */
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+header a:hover {
+    color: #D2691E;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+header a.active {
+    background-color: #D2691E;
+    color: #fff;
+}
+
+hr {
+    border: 1px solid #8B4513;
+    width: 80%;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Λευκό background */
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h1 {
+    color: #8B4513;
+    text-align: center;
+    border-bottom: 2px solid #8B4513;
+    padding-bottom: 10px;
+}
+
+main h2 {
+    color: #D2691E;
+    text-align: center;
+}
+
+main p {
+    margin: 10px 0;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.image-container img {
+    border: 2px solid #8B4513; /* Πλαίσια στις εικόνες */
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Προσθήκη σκιάς για πλαίσια */
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #8B4513;
+    border-top: 2px solid #8B4513;
 }
