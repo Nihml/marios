@@ -89,16 +89,20 @@ main h1 {
     margin-bottom: 10px;
 }
 
+/* styles.css */
+
+/* Άλλαξε το ύψος των εικόνων σε όλα τα .menu-item img για να είναι ίδιο με την img.2 */
 .menu-item img {
     border: 2px solid #8B4513;
     border-radius: 10px;
     width: 100%;
-    height: auto;
-    max-width: 300px;
-    max-height: 300px;
+    height: 100%;
+    max-width: 450px; /* Κράτα το ίδιο πλάτος με την img.2 */
+    max-height: 300px; /* Ρύθμισε το ύψος αναλογικά με την img.2 */
     object-fit: cover;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
 
 .menu-item p {
     margin-top: 10px;
